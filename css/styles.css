@@ -144,16 +144,16 @@ header {
 }
 
 /* --------- Contact ---------- */
-.contact {
+.contact-header {
   display: flex;
   margin-left: auto;
 }
 
-.contact__item + .contact__item {
+.contact-header__item + .contact-header__item {
   margin-left: 50px;
 }
 
-.contact__link {
+.contact-header__link {
   display: flex;
   align-items: center;
 
@@ -169,12 +169,12 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__link:hover,
-.contact__link:focus {
+.contact-header__link:hover,
+.contact-header__link:focus {
   color: var(--accent-blue-color);
 }
 
-.contact__icon {
+.contact-header__icon {
   margin-right: 10px;
   fill: currentColor;
 }

@@ -18,7 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
 
   <body>
@@ -41,18 +42,18 @@
           </ul>
         </nav>
 
-        <ul class="contact list">
-          <li class="contact__item">
-            <a href="mailto:info@devstudio.com" class="contact__link">
-              <svg class="contact__icon" width="16" height="12">
+        <ul class="contact-header list">
+          <li class="contact-header__item">
+            <a href="mailto:info@devstudio.com" class="contact-header__link">
+              <svg class="contact-header__icon" width="16" height="12">
                 <use href="./images/svg/icons.svg#icon-envelope1"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contact__item">
-            <a href="tel:+380961111111" class="contact__link">
-              <svg class="contact__icon" width="10" height="16">
+          <li class="contact-header__item">
+            <a href="tel:+380961111111" class="contact-header__link">
+              <svg class="contact-header__icon" width="10" height="16">
                 <use href="./images/svg/icons.svg#icon-smartphone1"></use>
               </svg>
               +38 096 111 11 11
@@ -312,21 +313,25 @@
       <div class="container page-footer">
         <div class="first-container">
           <a href="./" class="logo">Web<span class="logo--footer">Studio</span></a>
-          <address class="address">
+          <address class="contact-footer">
             <ul class="list">
               <li>
                 <a
                   href="https://goo.gl/maps/MJPscDKZtw9Yv2bZ9"
-                  class="address__location"
+                  class="contact-footer__location"
                   target="_blank"
                 >
                   г. Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
               <li>
-                <a href="mailto:info@example.com" class="address__info"> info@example.com </a>
+                <a href="mailto:info@example.com" class="contact-footer__info">
+                  info@example.com
+                </a>
               </li>
-              <li><a href="tel:+380991111111" class="address__info"> +38 099 111 11 11 </a></li>
+              <li>
+                <a href="tel:+380991111111" class="contact-footer__info"> +38 099 111 11 11 </a>
+              </li>
             </ul>
           </address>
         </div>
@@ -335,32 +340,32 @@
           <h3 class="second-container__title">присоединяйтесь</h3>
           <ul class="social-media list">
             <li class="social-media__list">
-              <a href="https://www.instagram.com/" class="social-media__link">
-                <svg class="social-media__icon">
+              <a href="https://www.instagram.com/" class="social-common social-media__link">
+                <svg class="social__icon">
                   <use href="./images/svg/icons.svg#icon-instagram1"></use>
                 </svg>
               </a>
             </li>
 
             <li class="social-media__list">
-              <a href="https://twitter.com/" class="social-media__link">
-                <svg class="social-media__icon">
+              <a href="https://twitter.com/" class="social-common social-media__link">
+                <svg class="social__icon">
                   <use href="./images/svg/icons.svg#icon-twitter1"></use>
                 </svg>
               </a>
             </li>
 
             <li class="social-media__list">
-              <a href="https://www.facebook.com/" class="social-media__link">
-                <svg class="social-media__icon">
+              <a href="https://www.facebook.com/" class="social-common social-media__link">
+                <svg class="social__icon">
                   <use href="./images/svg/icons.svg#icon-facebook1"></use>
                 </svg>
               </a>
             </li>
 
             <li class="social-media__list">
-              <a href="https://www.linkedin.com" class="social-media__link">
-                <svg class="social-media__icon">
+              <a href="https://www.linkedin.com" class="social-common social-media__link">
+                <svg class="social__icon">
                   <use href="./images/svg/icons.svg#icon-linkedin1"></use>
                 </svg>
               </a>
@@ -372,7 +377,7 @@
           <h3 class="third-container__title">Подпишитесь на рассылку</h3>
           <form class="form-footer">
             <input type="email" class="form-footer__input" name="mail" placeholder="E-mail" />
-            <button type="submit" class="form-footer__button">Подписаться</button>
+            <button type="submit" class="button form-footer__button">Подписаться</button>
           </form>
         </div>
       </div>

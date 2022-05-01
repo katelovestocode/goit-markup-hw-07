@@ -1,0 +1,121 @@
+/* ----------- Footer ------------ */
+footer {
+  padding: 60px 0;
+  background-color: var(--secondary-dark-bcg-color);
+}
+
+.page-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.contact-footer {
+  margin-top: 20px;
+}
+.contact-footer__location {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+}
+.contact-footer__info {
+  color: var(--footer-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-blue-color);
+  }
+}
+
+.second-container {
+  margin-left: 70px;
+}
+
+.second-container__title,
+.third-container__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.social-media {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-media__list {
+  @extend %flexCenter;
+}
+.social-media__list + .social-media__list {
+  margin-left: 10px;
+}
+
+.social-media__link {
+  @extend %flexCenter;
+
+  color: var(--white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-blue-color);
+  }
+}
+
+.third-container {
+  margin-left: 93px;
+}
+
+.third-container__title {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.form-footer__input {
+  width: 358px;
+  height: 50px;
+  padding-left: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background-color: var(--secondary-dark-bcg-color);
+  color: var(--white-color);
+}
+
+.form-footer__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50px;
+  margin-left: 12px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--accent-blue-color);
+}
+
+.form-footer__button::after {
+  display: inline-block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+
+  background-image: url('../images/form/icon\ send.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
