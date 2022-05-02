@@ -1,5 +1,5 @@
 header {
-  border: solid var(--border-color);
+  border: solid $borderColor;
   border-width: 0 0 1px 0;
   margin-right: auto;
   margin-left: auto;
@@ -26,7 +26,7 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -37,28 +37,26 @@ header {
 
   &:hover,
   &:focus {
-    color: var(--accent-blue-color);
+    color: $accentBlueColor;
   }
 }
 
 .site-nav__link--current {
   display: block;
   position: relative;
-}
-.site-nav__link--current {
-  color: var(--accent-blue-color);
-}
+  color: $accentBlueColor;
 
-.site-nav__link--current::after {
-  position: absolute;
-  bottom: -1px;
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
+  &::after {
+    position: absolute;
+    bottom: -1px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
 
-  background-color: var(--accent-blue-color);
+    background-color: $accentBlueColor;
+  }
 }
 
 /* --------- Contact ---------- */
@@ -75,7 +73,7 @@ header {
   display: flex;
   align-items: center;
 
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -85,11 +83,11 @@ header {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contact-header__link:hover,
-.contact-header__link:focus {
-  color: var(--accent-blue-color);
+  &:hover,
+  &:focus {
+    color: $accentBlueColor;
+  }
 }
 
 .contact-header__icon {

@@ -8,24 +8,24 @@
   display: flex;
 }
 .clients__item + .clients__item {
-  margin-left: var(--margin-gap);
+  margin-left: $marginGap;
 }
 
 .clients__link {
   @extend %flexCenter;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--icons-border-and-fill);
+  border: 1px solid $iconsBorderAndFill;
   border-radius: 4px;
-  color: var(--icons-border-and-fill);
+  color: $iconsBorderAndFill;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    color: var(--accent-blue-color);
-    border-color: var(--accent-blue-color);
+    color: $accentBlueColor;
+    border-color: $accentBlueColor;
   }
 }
 

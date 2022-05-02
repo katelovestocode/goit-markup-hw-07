@@ -4,7 +4,7 @@
 }
 
 .examples__item + .examples__item {
-  margin-left: var(--margin-gap);
+  margin-left: $marginGap;
 }
 
 .examples__item {
@@ -20,8 +20,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--white-color);
-  background-color: rgba(47, 48, 58, 0.8);
+  color: $whiteColor;
+  background-color: $examplesTextOverlay;
   width: 370px;
   height: 70px;
 

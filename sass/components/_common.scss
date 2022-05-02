@@ -1,6 +1,6 @@
 body {
-  background-color: var(--white-color);
-  color: var(--primary-text-color);
+  background-color: $whiteColor;
+  color: $primaryTextColor;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -55,8 +55,8 @@ a {
   letter-spacing: 0.06em;
   cursor: pointer;
 
-  background-color: var(--accent-blue-color);
-  color: var(--white-color);
+  background-color: $accentBlueColor;
+  color: $whiteColor;
 }
 
 .social-common {

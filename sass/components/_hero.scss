@@ -2,7 +2,7 @@
 .hero {
   text-align: center;
   padding: 200px 0;
-  background-color: var(--secondary-dark-bcg-color);
+  background-color: $secondaryDarkBcgColor;
 
   max-width: 1600px;
   margin-left: auto;
@@ -14,7 +14,7 @@
   background-size: cover;
 }
 .hero__title {
-  color: var(--white-color);
+  color: $whiteColor;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -28,12 +28,12 @@
 .hero__button {
   display: inline-block;
   padding: 10px 32px;
-  margin-top: var(--margin-gap);
+  margin-top: $marginGap;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    background-color: var(--button-hover-color);
+    background-color: $buttonHoverColor;
   }
 }

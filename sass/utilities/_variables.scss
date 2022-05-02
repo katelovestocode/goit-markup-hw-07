@@ -1,16 +1,18 @@
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --black-text-color: #000000;
-  --accent-blue-color: #2196f3;
-  --footer-text-color: rgba(255, 255, 255, 0.6);
-  --white-color: #ffffff;
-  --secondary-dark-bcg-color: #2f303a;
-  --third-bcg-color: #f5f4fa;
-  --button-hover-color: #188ce8;
-  --border-color: #ececec;
-  --icons-border-and-fill: #afb1b8;
-  --margin-gap: 30px;
-  --modal-text: rgba(117, 117, 117, 0.5);
-  --modal-border-gray: rgba(33, 33, 33, 0.2);
-}
+$primaryTextColor: #212121;
+$secondaryTextColor: #757575;
+$blackTextColor: #000000;
+$accentBlueColor: #2196f3;
+$footerTextColor: rgba(255, 255, 255, 0.6);
+$whiteColor: #ffffff;
+$secondaryDarkBcgColor: #2f303a;
+$thirdBcgColor: #f5f4fa;
+$buttonHoverColor: #188ce8;
+$borderColor: #ececec;
+$iconsBorderAndFill: #afb1b8;
+$modalBackdropColor: rgba(0, 0, 0, 0.2);
+$modalText: rgba(117, 117, 117, 0.5);
+$modalBorderGray: rgba(33, 33, 33, 0.2);
+$cardSetOverlay: rgba(33, 150, 243, 0.9);
+$examplesTextOverlay: rgba(47, 48, 58, 0.8);
+
+$marginGap: 30px;
