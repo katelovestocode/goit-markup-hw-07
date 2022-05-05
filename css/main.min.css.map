@@ -5,7 +5,7 @@
         "../sass/main.scss",
         "../sass/utilities/_variables.scss",
         "../sass/utilities/_placeholder.scss",
-        "../sass/components/_common.scss",
+        "../sass/base/_common.scss",
         "../sass/components/_section.scss",
         "../sass/components/_logo.scss",
         "../sass/components/_page-header.scss",
